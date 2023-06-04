@@ -1,14 +1,38 @@
-/* p {
-    font-family:'Indie Flower', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-} */
+:root {
+  -background-color: black;
+  -secondary-color: #282323;
+  -special-text-color: #f65282;
+  -p-font-family: "Poppins", sans-serif;
+  -h-font-family: "Playfair Display", serif;
+}
 
-/* h1,
+body {
+  font-family: var(-p-font-family);
+  font-weight: normal;
+}
+
+.hero h2,
+h3 {
+  font-family: var(-p-font-family);
+}
+
+h1,
 h2,
 h3 {
-  font-family: "Indie Flower", cursive;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Playfair Display", serif;
-  font-family: "Poppins", sans-serif;
-} */
+  text-align: center;
+}
+
+h1 {
+  font-family: var(-h-font-family);
+  font-weight: bold;
+  font-size: 96px;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: bold;
+  padding-top: 100px;
+}
