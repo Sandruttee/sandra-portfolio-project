@@ -3,6 +3,7 @@
   --special-text-color: #f65282;
   --p-font-family: "Poppins", sans-serif;
   --h-font-family: "Playfair Display", serif;
+  --secondary-text-color: #777a7c;
 }
 
 body {
@@ -29,6 +30,7 @@ h1 {
 
 h3 {
   font-weight: normal;
+  color: var(--secondary-text-color);
 }
 
 h2 {
@@ -114,6 +116,7 @@ i {
 .p-social-media {
   margin-top: 60px;
   text-align: center;
+  color: var(--secondary-text-color);
 }
 i:hover {
   scale: 1.1;
