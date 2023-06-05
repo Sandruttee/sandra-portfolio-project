@@ -52,7 +52,7 @@ h2 {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 56px;
+    font-size: 54px;
   }
   h3 {
     font-size: 16px;
@@ -124,4 +124,10 @@ i:hover {
 .certifications img:hover {
   scale: 3;
   cursor: context-menu;
+}
+
+.about-container {
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 80%;
 }
