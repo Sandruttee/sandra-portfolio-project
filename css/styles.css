@@ -229,3 +229,10 @@ i:hover {
   background-color: white;
   color: black;
 }
+
+.link-git {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-top: 80px;
+}
