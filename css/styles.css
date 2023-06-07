@@ -131,3 +131,17 @@ i:hover {
   margin-top: 100px;
   max-width: 80%;
 }
+
+.cv {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: left;
+  line-height: normal;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.spec {
+  color: var(--special-text-color);
+  font-size: 15px;
+}
