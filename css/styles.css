@@ -64,10 +64,10 @@ h2 {
   text-align: left;
   line-height: normal;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   h1 {
     font-size: 54px;
   }
@@ -77,6 +77,19 @@ h2 {
   .p-color {
     text-align: center;
     line-height: normal;
+  }
+  .project-pic {
+    display: none;
+  }
+  .p-projects {
+    text-align: center;
+  }
+  .p-about {
+    text-align: center;
+  }
+  .p-about-description {
+    text-align: center;
+    margin-bottom: 10px;
   }
 }
 
@@ -151,7 +164,6 @@ i:hover {
 
 .spec {
   color: var(--special-text-color);
-  font-size: 15px;
 }
 
 .launch-web {
@@ -161,9 +173,16 @@ i:hover {
   color: white;
   border-color: black;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.project-link {
+  text-decoration: none;
+  color: white;
 }
 
-.launch-web:hover {
+.project-link:hover {
   background-color: white;
   color: black;
 }
@@ -171,4 +190,15 @@ i:hover {
 .project-pic {
   max-width: 400px;
   margin-bottom: 20px;
+  border-radius: 4px;
+  filter: grayscale();
+}
+
+.project-pic:hover {
+  filter: none;
+}
+
+.p-about-description {
+  font-family: var(--p-font-family);
+  font-size: 20px;
 }
