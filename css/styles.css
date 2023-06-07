@@ -91,6 +91,9 @@ h2 {
     text-align: center;
     margin-bottom: 10px;
   }
+  .contact-pre {
+    margin-top: 20px;
+  }
 }
 
 .hero h3 {
@@ -201,4 +204,29 @@ i:hover {
 .p-about-description {
   font-family: var(--p-font-family);
   font-size: 20px;
+}
+
+.email {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.contact {
+  display: block;
+  text-align: center;
+}
+.contact-pre {
+  font-size: 20px;
+  text-align: center;
+}
+
+.p-contact {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: left;
+  line-height: normal;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  padding: 30px;
+  margin-bottom: 120px;
 }
