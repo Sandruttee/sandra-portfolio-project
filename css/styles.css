@@ -43,11 +43,28 @@ h2 {
   border-radius: 50%;
 }
 
-.p-color {
+.p-index {
   background-color: var(--secondary-color);
   color: white;
   text-align: left;
   line-height: 40px;
+}
+
+.p-about {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: left;
+  line-height: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.p-projects {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: left;
+  line-height: normal;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {
@@ -126,22 +143,27 @@ i:hover {
   cursor: context-menu;
 }
 
-.about-container {
+.window-container {
   margin: 0 auto;
   margin-top: 100px;
   max-width: 80%;
 }
 
-.cv {
-  background-color: var(--secondary-color);
-  color: white;
-  text-align: left;
-  line-height: normal;
-  margin-bottom: 10px;
-  font-size: 10px;
-}
-
 .spec {
   color: var(--special-text-color);
   font-size: 15px;
+}
+
+.launch-web {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: var(--secondary-color);
+  color: white;
+  border-color: black;
+  cursor: pointer;
+}
+
+.launch-web:hover {
+  background-color: white;
+  color: black;
 }
