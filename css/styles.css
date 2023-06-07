@@ -185,11 +185,6 @@ i:hover {
   color: white;
 }
 
-.project-link:hover {
-  background-color: white;
-  color: black;
-}
-
 .project-pic {
   max-width: 400px;
   margin-bottom: 20px;
@@ -229,4 +224,8 @@ i:hover {
   margin-top: 50px;
   padding: 30px;
   margin-bottom: 120px;
+}
+.launch-web:hover {
+  background-color: white;
+  color: black;
 }
