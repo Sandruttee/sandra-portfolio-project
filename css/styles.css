@@ -76,6 +76,9 @@ h2 {
   h3 {
     font-size: 16px;
   }
+  .p-index {
+    text-align: center;
+  }
   .p-color {
     text-align: center;
     line-height: normal;
