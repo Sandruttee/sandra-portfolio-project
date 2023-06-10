@@ -99,6 +99,12 @@ h2 {
   .contact-pre {
     margin-top: 20px;
   }
+  .me-image {
+    max-width: 100%;
+  }
+  .email {
+    font-size: 14px;
+  }
 }
 
 .skills {
